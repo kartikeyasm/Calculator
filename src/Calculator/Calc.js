@@ -56,7 +56,7 @@ const Calc = () => {
     return (
         <div className="max-w-sm mx-auto mt-10 p-4 bg-gray-800 rounded-lg shadow-lg">
             <div className="text-right text-white text-3xl mb-4 p-4 h-20 flex items-center justify-end bg-gray-900 rounded-t-lg">
-                <input ref={inputRef} className='text-black' type='text' value={`${input}`} placeholder={`${input || "0"}`} onChange={handleChange}></input>
+                <input ref={inputRef} className="w-full h-full text-white bg-transparent placeholder-gray-500 text-4xl font-bold outline-none focus:ring-2 focus:ring-blue-500 rounded-lg p-2" type='text' value={`${input}`} placeholder={`${input || "0"}`} onChange={handleChange}></input>
             </div>
 
             <div className="grid grid-cols-4 gap-4">
